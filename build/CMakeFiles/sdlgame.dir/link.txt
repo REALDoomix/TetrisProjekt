@@ -1,0 +1,1 @@
+/usr/bin/c89-gcc -g CMakeFiles/sdlgame.dir/main.c.o CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.o CMakeFiles/sdlgame.dir/utility/textrenderer.c.o -o sdlgame  -lSDL2 -lSDL2_image -lSDL2_ttf 

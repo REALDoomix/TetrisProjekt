@@ -1,0 +1,3 @@
+/home/doomix/Documents/VSB/UPR/TetrisProjekt/build/CMakeFiles/sdlgame.dir
+/home/doomix/Documents/VSB/UPR/TetrisProjekt/build/CMakeFiles/edit_cache.dir
+/home/doomix/Documents/VSB/UPR/TetrisProjekt/build/CMakeFiles/rebuild_cache.dir

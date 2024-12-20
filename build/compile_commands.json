@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/doomix/Documents/VSB/UPR/TetrisProjekt/build",
+  "command": "/usr/bin/c89-gcc  -I/usr/include/SDL2 -g -std=gnu11 -o CMakeFiles/sdlgame.dir/main.c.o -c /home/doomix/Documents/VSB/UPR/TetrisProjekt/main.c",
+  "file": "/home/doomix/Documents/VSB/UPR/TetrisProjekt/main.c"
+},
+{
+  "directory": "/home/doomix/Documents/VSB/UPR/TetrisProjekt/build",
+  "command": "/usr/bin/c89-gcc  -I/usr/include/SDL2 -g -std=gnu11 -o CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.o -c /home/doomix/Documents/VSB/UPR/TetrisProjekt/scenes/mainmenu/mainmenu.c",
+  "file": "/home/doomix/Documents/VSB/UPR/TetrisProjekt/scenes/mainmenu/mainmenu.c"
+},
+{
+  "directory": "/home/doomix/Documents/VSB/UPR/TetrisProjekt/build",
+  "command": "/usr/bin/c89-gcc  -I/usr/include/SDL2 -g -std=gnu11 -o CMakeFiles/sdlgame.dir/utility/textrenderer.c.o -c /home/doomix/Documents/VSB/UPR/TetrisProjekt/utility/textrenderer.c",
+  "file": "/home/doomix/Documents/VSB/UPR/TetrisProjekt/utility/textrenderer.c"
+}
+]
