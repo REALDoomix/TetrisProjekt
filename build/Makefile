@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named sdlgame
+# Target rules for targets named Tetris
 
 # Build rule for target.
-sdlgame: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sdlgame
-.PHONY : sdlgame
+Tetris: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tetris
+.PHONY : Tetris
 
 # fast build rule for target.
-sdlgame/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/build
-.PHONY : sdlgame/fast
+Tetris/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tetris.dir/build.make CMakeFiles/Tetris.dir/build
+.PHONY : Tetris/fast
 
 interactions/events.o: interactions/events.c.o
 .PHONY : interactions/events.o
 
 # target to build an object file
 interactions/events.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/interactions/events.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tetris.dir/build.make CMakeFiles/Tetris.dir/interactions/events.c.o
 .PHONY : interactions/events.c.o
 
 interactions/events.i: interactions/events.c.i
@@ -142,7 +142,7 @@ interactions/events.i: interactions/events.c.i
 
 # target to preprocess a source file
 interactions/events.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/interactions/events.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tetris.dir/build.make CMakeFiles/Tetris.dir/interactions/events.c.i
 .PHONY : interactions/events.c.i
 
 interactions/events.s: interactions/events.c.s
@@ -150,7 +150,7 @@ interactions/events.s: interactions/events.c.s
 
 # target to generate assembly for a file
 interactions/events.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/interactions/events.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tetris.dir/build.make CMakeFiles/Tetris.dir/interactions/events.c.s
 .PHONY : interactions/events.c.s
 
 main.o: main.c.o
@@ -158,7 +158,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/main.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tetris.dir/build.make CMakeFiles/Tetris.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -166,7 +166,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tetris.dir/build.make CMakeFiles/Tetris.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -174,7 +174,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tetris.dir/build.make CMakeFiles/Tetris.dir/main.c.s
 .PHONY : main.c.s
 
 scenes/game/game.o: scenes/game/game.c.o
@@ -182,7 +182,7 @@ scenes/game/game.o: scenes/game/game.c.o
 
 # target to build an object file
 scenes/game/game.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/scenes/game/game.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tetris.dir/build.make CMakeFiles/Tetris.dir/scenes/game/game.c.o
 .PHONY : scenes/game/game.c.o
 
 scenes/game/game.i: scenes/game/game.c.i
@@ -190,7 +190,7 @@ scenes/game/game.i: scenes/game/game.c.i
 
 # target to preprocess a source file
 scenes/game/game.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/scenes/game/game.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tetris.dir/build.make CMakeFiles/Tetris.dir/scenes/game/game.c.i
 .PHONY : scenes/game/game.c.i
 
 scenes/game/game.s: scenes/game/game.c.s
@@ -198,7 +198,7 @@ scenes/game/game.s: scenes/game/game.c.s
 
 # target to generate assembly for a file
 scenes/game/game.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/scenes/game/game.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tetris.dir/build.make CMakeFiles/Tetris.dir/scenes/game/game.c.s
 .PHONY : scenes/game/game.c.s
 
 scenes/game_over/game_over.o: scenes/game_over/game_over.c.o
@@ -206,7 +206,7 @@ scenes/game_over/game_over.o: scenes/game_over/game_over.c.o
 
 # target to build an object file
 scenes/game_over/game_over.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/scenes/game_over/game_over.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tetris.dir/build.make CMakeFiles/Tetris.dir/scenes/game_over/game_over.c.o
 .PHONY : scenes/game_over/game_over.c.o
 
 scenes/game_over/game_over.i: scenes/game_over/game_over.c.i
@@ -214,7 +214,7 @@ scenes/game_over/game_over.i: scenes/game_over/game_over.c.i
 
 # target to preprocess a source file
 scenes/game_over/game_over.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/scenes/game_over/game_over.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tetris.dir/build.make CMakeFiles/Tetris.dir/scenes/game_over/game_over.c.i
 .PHONY : scenes/game_over/game_over.c.i
 
 scenes/game_over/game_over.s: scenes/game_over/game_over.c.s
@@ -222,7 +222,7 @@ scenes/game_over/game_over.s: scenes/game_over/game_over.c.s
 
 # target to generate assembly for a file
 scenes/game_over/game_over.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/scenes/game_over/game_over.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tetris.dir/build.make CMakeFiles/Tetris.dir/scenes/game_over/game_over.c.s
 .PHONY : scenes/game_over/game_over.c.s
 
 scenes/mainmenu/mainmenu.o: scenes/mainmenu/mainmenu.c.o
@@ -230,7 +230,7 @@ scenes/mainmenu/mainmenu.o: scenes/mainmenu/mainmenu.c.o
 
 # target to build an object file
 scenes/mainmenu/mainmenu.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tetris.dir/build.make CMakeFiles/Tetris.dir/scenes/mainmenu/mainmenu.c.o
 .PHONY : scenes/mainmenu/mainmenu.c.o
 
 scenes/mainmenu/mainmenu.i: scenes/mainmenu/mainmenu.c.i
@@ -238,7 +238,7 @@ scenes/mainmenu/mainmenu.i: scenes/mainmenu/mainmenu.c.i
 
 # target to preprocess a source file
 scenes/mainmenu/mainmenu.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tetris.dir/build.make CMakeFiles/Tetris.dir/scenes/mainmenu/mainmenu.c.i
 .PHONY : scenes/mainmenu/mainmenu.c.i
 
 scenes/mainmenu/mainmenu.s: scenes/mainmenu/mainmenu.c.s
@@ -246,7 +246,7 @@ scenes/mainmenu/mainmenu.s: scenes/mainmenu/mainmenu.c.s
 
 # target to generate assembly for a file
 scenes/mainmenu/mainmenu.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tetris.dir/build.make CMakeFiles/Tetris.dir/scenes/mainmenu/mainmenu.c.s
 .PHONY : scenes/mainmenu/mainmenu.c.s
 
 utility/gamemanager/gamemanager.o: utility/gamemanager/gamemanager.c.o
@@ -254,7 +254,7 @@ utility/gamemanager/gamemanager.o: utility/gamemanager/gamemanager.c.o
 
 # target to build an object file
 utility/gamemanager/gamemanager.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/utility/gamemanager/gamemanager.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tetris.dir/build.make CMakeFiles/Tetris.dir/utility/gamemanager/gamemanager.c.o
 .PHONY : utility/gamemanager/gamemanager.c.o
 
 utility/gamemanager/gamemanager.i: utility/gamemanager/gamemanager.c.i
@@ -262,7 +262,7 @@ utility/gamemanager/gamemanager.i: utility/gamemanager/gamemanager.c.i
 
 # target to preprocess a source file
 utility/gamemanager/gamemanager.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/utility/gamemanager/gamemanager.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tetris.dir/build.make CMakeFiles/Tetris.dir/utility/gamemanager/gamemanager.c.i
 .PHONY : utility/gamemanager/gamemanager.c.i
 
 utility/gamemanager/gamemanager.s: utility/gamemanager/gamemanager.c.s
@@ -270,7 +270,7 @@ utility/gamemanager/gamemanager.s: utility/gamemanager/gamemanager.c.s
 
 # target to generate assembly for a file
 utility/gamemanager/gamemanager.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/utility/gamemanager/gamemanager.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tetris.dir/build.make CMakeFiles/Tetris.dir/utility/gamemanager/gamemanager.c.s
 .PHONY : utility/gamemanager/gamemanager.c.s
 
 utility/textrenderer/textrenderer.o: utility/textrenderer/textrenderer.c.o
@@ -278,7 +278,7 @@ utility/textrenderer/textrenderer.o: utility/textrenderer/textrenderer.c.o
 
 # target to build an object file
 utility/textrenderer/textrenderer.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/utility/textrenderer/textrenderer.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tetris.dir/build.make CMakeFiles/Tetris.dir/utility/textrenderer/textrenderer.c.o
 .PHONY : utility/textrenderer/textrenderer.c.o
 
 utility/textrenderer/textrenderer.i: utility/textrenderer/textrenderer.c.i
@@ -286,7 +286,7 @@ utility/textrenderer/textrenderer.i: utility/textrenderer/textrenderer.c.i
 
 # target to preprocess a source file
 utility/textrenderer/textrenderer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/utility/textrenderer/textrenderer.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tetris.dir/build.make CMakeFiles/Tetris.dir/utility/textrenderer/textrenderer.c.i
 .PHONY : utility/textrenderer/textrenderer.c.i
 
 utility/textrenderer/textrenderer.s: utility/textrenderer/textrenderer.c.s
@@ -294,7 +294,7 @@ utility/textrenderer/textrenderer.s: utility/textrenderer/textrenderer.c.s
 
 # target to generate assembly for a file
 utility/textrenderer/textrenderer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/utility/textrenderer/textrenderer.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tetris.dir/build.make CMakeFiles/Tetris.dir/utility/textrenderer/textrenderer.c.s
 .PHONY : utility/textrenderer/textrenderer.c.s
 
 # Help Target
@@ -305,7 +305,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... sdlgame"
+	@echo "... Tetris"
 	@echo "... interactions/events.o"
 	@echo "... interactions/events.i"
 	@echo "... interactions/events.s"

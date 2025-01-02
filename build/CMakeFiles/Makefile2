@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/doomix/Documents/VSB/UPR/TetrisProjekt/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/sdlgame.dir/all
+all: CMakeFiles/Tetris.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/sdlgame.dir/clean
+clean: CMakeFiles/Tetris.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/sdlgame.dir
+# Target rules for target CMakeFiles/Tetris.dir
 
 # All Build rule for target.
-CMakeFiles/sdlgame.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/doomix/Documents/VSB/UPR/TetrisProjekt/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target sdlgame"
-.PHONY : CMakeFiles/sdlgame.dir/all
+CMakeFiles/Tetris.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tetris.dir/build.make CMakeFiles/Tetris.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tetris.dir/build.make CMakeFiles/Tetris.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/doomix/Documents/VSB/UPR/TetrisProjekt/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target Tetris"
+.PHONY : CMakeFiles/Tetris.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/sdlgame.dir/rule: cmake_check_build_system
+CMakeFiles/Tetris.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/doomix/Documents/VSB/UPR/TetrisProjekt/build/CMakeFiles 8
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sdlgame.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Tetris.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/doomix/Documents/VSB/UPR/TetrisProjekt/build/CMakeFiles 0
-.PHONY : CMakeFiles/sdlgame.dir/rule
+.PHONY : CMakeFiles/Tetris.dir/rule
 
 # Convenience name for target.
-sdlgame: CMakeFiles/sdlgame.dir/rule
-.PHONY : sdlgame
+Tetris: CMakeFiles/Tetris.dir/rule
+.PHONY : Tetris
 
 # clean rule for target.
-CMakeFiles/sdlgame.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/clean
-.PHONY : CMakeFiles/sdlgame.dir/clean
+CMakeFiles/Tetris.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tetris.dir/build.make CMakeFiles/Tetris.dir/clean
+.PHONY : CMakeFiles/Tetris.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
