@@ -29,7 +29,6 @@ int main(int argc, char *argv[])
         return 1;
     }   
 
-    int running = 1;
 
     initRenderer(renderer);
     init_game();

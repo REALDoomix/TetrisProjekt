@@ -39,6 +39,24 @@ SDL_Renderer* getRenderer(){
     return game.renderer;
 }
 
+int findHighscore(){
+    FILE *file = fopen("../leaderboard.txt", "r");
+    if(file == NULL){
+        printf("Error opening file\n");
+        quitGame();
+    }
+    char buffer[50];
+    int highscore = 0;
+    while(fgets(buffer, sizeof(buffer), file) != NULL){
+        int score = atoi(buffer);
+        if(score > highscore){
+            highscore = score;
+        }
+    }
+    fclose(file);
+    return highscore;
+}
+
 // returns the active scene
 enum Scenes getCurrentScene(){
     return game.currentScene;

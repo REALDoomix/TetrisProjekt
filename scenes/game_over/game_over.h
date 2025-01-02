@@ -7,4 +7,4 @@ void init_game_over();
 void render_game_over();
 void kill_game_over();
 SDL_Rect get_gameover_button_rect();
-void writeScoreToFile(int score);
+void writeScoreToFile();

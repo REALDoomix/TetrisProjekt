@@ -6,16 +6,20 @@
 #include "../../utility/gamemanager/gamemanager.h"
 
 
-SDL_Texture* logoTex;
-SDL_Surface* logoS;
+static SDL_Texture* logoTex;
+static SDL_Surface* logoS;
 static TTF_Font* font;
+static int highScore;
 
-SDL_Rect play_rect;
+static SDL_Rect logo_rect;
+static SDL_Rect play_rect;
+static SDL_Rect highscore_rect;
 
 
 
 void init_MainMenu() {
     TTF_Init();
+    highScore = findHighscore();
 
     logoS = IMG_Load("../images/logo.png");
     logoTex = SDL_CreateTextureFromSurface(getRenderer(), logoS);
@@ -25,12 +29,15 @@ void init_MainMenu() {
 void render_main_menu() {
     SDL_SetRenderDrawColor(getRenderer(), 0, 0, 255, 255);
 
-    SDL_Rect logo_rect = { 225, 50, 200, 200 };
+    logo_rect = (SDL_Rect){ 225, 50, 200, 200 };
 
     play_rect = (SDL_Rect){ 225, 300, 200, 40 };
 
+    highscore_rect = (SDL_Rect){ 225, 0, 200, 40 };
+
     SDL_RenderCopy(getRenderer(), logoTex, NULL, &logo_rect);
     SDL_RenderFillRect(getRenderer(), &play_rect);
+    sdl_draw_score(getRenderer(), font, (SDL_Color){255, 255, 255, 255}, highscore_rect, "Highscore" ,highScore);
     sdl_draw_text(getRenderer(), font, (SDL_Color){255, 255, 255, 255}, play_rect, "  Play  ");
 }
 

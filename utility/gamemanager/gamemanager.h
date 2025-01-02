@@ -28,3 +28,4 @@ void setActiveScene(enum Scenes scene);
 enum Scenes getCurrentScene();
 void renderActiveScene();
 SDL_Renderer* getRenderer();
+int findHighscore();

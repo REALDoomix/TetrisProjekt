@@ -13,6 +13,7 @@ void event()
         switch (event.type)
         {
         case SDL_QUIT:
+            quitGame();
             exit(0);
             break;
 
@@ -20,7 +21,7 @@ void event()
             //left click handling
             if (event.button.button == SDL_BUTTON_LEFT)
             {
-                //button checking
+                //button checking NOT IDEAL REMAKE
                 if(isMouseOver(get_menu_button_rect(),event.motion.x, event.motion.y) && getCurrentScene() == MAIN_MENU){
                     setActiveScene(GAME);
                 } else if (isMouseOver(get_gameover_button_rect(), event.motion.x, event.motion.y) && getCurrentScene() == GAME_OVER){

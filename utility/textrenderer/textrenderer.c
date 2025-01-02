@@ -18,9 +18,9 @@ void sdl_draw_text(SDL_Renderer* renderer, TTF_Font* font, SDL_Color color, SDL_
 }
 
 // renders the score (int value) to the desired location (rectangle)
-void sdl_draw_score(SDL_Renderer* renderer, TTF_Font* font, SDL_Color color, SDL_Rect location, int value){
+void sdl_draw_score(SDL_Renderer* renderer, TTF_Font* font, SDL_Color color, SDL_Rect location,const char* text, int value){
     char scoreBuffer[20];
-    sprintf(scoreBuffer, "Score: %d", value);
+    sprintf(scoreBuffer, "%s: %d",text , value);
     
     // Vykreslení textu se zadaným fontem a barvou do obrázku (surface)
     SDL_Surface* surface = TTF_RenderText_Blended(font, scoreBuffer, color);
