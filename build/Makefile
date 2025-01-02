@@ -129,6 +129,30 @@ sdlgame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/build
 .PHONY : sdlgame/fast
 
+interactions/events.o: interactions/events.c.o
+.PHONY : interactions/events.o
+
+# target to build an object file
+interactions/events.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/interactions/events.c.o
+.PHONY : interactions/events.c.o
+
+interactions/events.i: interactions/events.c.i
+.PHONY : interactions/events.i
+
+# target to preprocess a source file
+interactions/events.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/interactions/events.c.i
+.PHONY : interactions/events.c.i
+
+interactions/events.s: interactions/events.c.s
+.PHONY : interactions/events.s
+
+# target to generate assembly for a file
+interactions/events.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/interactions/events.c.s
+.PHONY : interactions/events.c.s
+
 main.o: main.c.o
 .PHONY : main.o
 
@@ -152,6 +176,54 @@ main.s: main.c.s
 main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/main.c.s
 .PHONY : main.c.s
+
+scenes/game/game.o: scenes/game/game.c.o
+.PHONY : scenes/game/game.o
+
+# target to build an object file
+scenes/game/game.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/scenes/game/game.c.o
+.PHONY : scenes/game/game.c.o
+
+scenes/game/game.i: scenes/game/game.c.i
+.PHONY : scenes/game/game.i
+
+# target to preprocess a source file
+scenes/game/game.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/scenes/game/game.c.i
+.PHONY : scenes/game/game.c.i
+
+scenes/game/game.s: scenes/game/game.c.s
+.PHONY : scenes/game/game.s
+
+# target to generate assembly for a file
+scenes/game/game.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/scenes/game/game.c.s
+.PHONY : scenes/game/game.c.s
+
+scenes/game_over/game_over.o: scenes/game_over/game_over.c.o
+.PHONY : scenes/game_over/game_over.o
+
+# target to build an object file
+scenes/game_over/game_over.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/scenes/game_over/game_over.c.o
+.PHONY : scenes/game_over/game_over.c.o
+
+scenes/game_over/game_over.i: scenes/game_over/game_over.c.i
+.PHONY : scenes/game_over/game_over.i
+
+# target to preprocess a source file
+scenes/game_over/game_over.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/scenes/game_over/game_over.c.i
+.PHONY : scenes/game_over/game_over.c.i
+
+scenes/game_over/game_over.s: scenes/game_over/game_over.c.s
+.PHONY : scenes/game_over/game_over.s
+
+# target to generate assembly for a file
+scenes/game_over/game_over.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/scenes/game_over/game_over.c.s
+.PHONY : scenes/game_over/game_over.c.s
 
 scenes/mainmenu/mainmenu.o: scenes/mainmenu/mainmenu.c.o
 .PHONY : scenes/mainmenu/mainmenu.o
@@ -177,29 +249,53 @@ scenes/mainmenu/mainmenu.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.s
 .PHONY : scenes/mainmenu/mainmenu.c.s
 
-utility/textrenderer.o: utility/textrenderer.c.o
-.PHONY : utility/textrenderer.o
+utility/gamemanager/gamemanager.o: utility/gamemanager/gamemanager.c.o
+.PHONY : utility/gamemanager/gamemanager.o
 
 # target to build an object file
-utility/textrenderer.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/utility/textrenderer.c.o
-.PHONY : utility/textrenderer.c.o
+utility/gamemanager/gamemanager.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/utility/gamemanager/gamemanager.c.o
+.PHONY : utility/gamemanager/gamemanager.c.o
 
-utility/textrenderer.i: utility/textrenderer.c.i
-.PHONY : utility/textrenderer.i
+utility/gamemanager/gamemanager.i: utility/gamemanager/gamemanager.c.i
+.PHONY : utility/gamemanager/gamemanager.i
 
 # target to preprocess a source file
-utility/textrenderer.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/utility/textrenderer.c.i
-.PHONY : utility/textrenderer.c.i
+utility/gamemanager/gamemanager.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/utility/gamemanager/gamemanager.c.i
+.PHONY : utility/gamemanager/gamemanager.c.i
 
-utility/textrenderer.s: utility/textrenderer.c.s
-.PHONY : utility/textrenderer.s
+utility/gamemanager/gamemanager.s: utility/gamemanager/gamemanager.c.s
+.PHONY : utility/gamemanager/gamemanager.s
 
 # target to generate assembly for a file
-utility/textrenderer.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/utility/textrenderer.c.s
-.PHONY : utility/textrenderer.c.s
+utility/gamemanager/gamemanager.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/utility/gamemanager/gamemanager.c.s
+.PHONY : utility/gamemanager/gamemanager.c.s
+
+utility/textrenderer/textrenderer.o: utility/textrenderer/textrenderer.c.o
+.PHONY : utility/textrenderer/textrenderer.o
+
+# target to build an object file
+utility/textrenderer/textrenderer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/utility/textrenderer/textrenderer.c.o
+.PHONY : utility/textrenderer/textrenderer.c.o
+
+utility/textrenderer/textrenderer.i: utility/textrenderer/textrenderer.c.i
+.PHONY : utility/textrenderer/textrenderer.i
+
+# target to preprocess a source file
+utility/textrenderer/textrenderer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/utility/textrenderer/textrenderer.c.i
+.PHONY : utility/textrenderer/textrenderer.c.i
+
+utility/textrenderer/textrenderer.s: utility/textrenderer/textrenderer.c.s
+.PHONY : utility/textrenderer/textrenderer.s
+
+# target to generate assembly for a file
+utility/textrenderer/textrenderer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sdlgame.dir/build.make CMakeFiles/sdlgame.dir/utility/textrenderer/textrenderer.c.s
+.PHONY : utility/textrenderer/textrenderer.c.s
 
 # Help Target
 help:
@@ -210,15 +306,27 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... sdlgame"
+	@echo "... interactions/events.o"
+	@echo "... interactions/events.i"
+	@echo "... interactions/events.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... scenes/game/game.o"
+	@echo "... scenes/game/game.i"
+	@echo "... scenes/game/game.s"
+	@echo "... scenes/game_over/game_over.o"
+	@echo "... scenes/game_over/game_over.i"
+	@echo "... scenes/game_over/game_over.s"
 	@echo "... scenes/mainmenu/mainmenu.o"
 	@echo "... scenes/mainmenu/mainmenu.i"
 	@echo "... scenes/mainmenu/mainmenu.s"
-	@echo "... utility/textrenderer.o"
-	@echo "... utility/textrenderer.i"
-	@echo "... utility/textrenderer.s"
+	@echo "... utility/gamemanager/gamemanager.o"
+	@echo "... utility/gamemanager/gamemanager.i"
+	@echo "... utility/gamemanager/gamemanager.s"
+	@echo "... utility/textrenderer/textrenderer.o"
+	@echo "... utility/textrenderer/textrenderer.i"
+	@echo "... utility/textrenderer/textrenderer.s"
 .PHONY : help
 
 

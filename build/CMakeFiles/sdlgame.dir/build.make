@@ -73,59 +73,123 @@ CMakeFiles/sdlgame.dir/main.c.o: CMakeFiles/sdlgame.dir/flags.make
 CMakeFiles/sdlgame.dir/main.c.o: ../main.c
 CMakeFiles/sdlgame.dir/main.c.o: CMakeFiles/sdlgame.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/doomix/Documents/VSB/UPR/TetrisProjekt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sdlgame.dir/main.c.o"
-	/usr/bin/c89-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sdlgame.dir/main.c.o -MF CMakeFiles/sdlgame.dir/main.c.o.d -o CMakeFiles/sdlgame.dir/main.c.o -c /home/doomix/Documents/VSB/UPR/TetrisProjekt/main.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sdlgame.dir/main.c.o -MF CMakeFiles/sdlgame.dir/main.c.o.d -o CMakeFiles/sdlgame.dir/main.c.o -c /home/doomix/Documents/VSB/UPR/TetrisProjekt/main.c
 
 CMakeFiles/sdlgame.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sdlgame.dir/main.c.i"
-	/usr/bin/c89-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/doomix/Documents/VSB/UPR/TetrisProjekt/main.c > CMakeFiles/sdlgame.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/doomix/Documents/VSB/UPR/TetrisProjekt/main.c > CMakeFiles/sdlgame.dir/main.c.i
 
 CMakeFiles/sdlgame.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sdlgame.dir/main.c.s"
-	/usr/bin/c89-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/doomix/Documents/VSB/UPR/TetrisProjekt/main.c -o CMakeFiles/sdlgame.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/doomix/Documents/VSB/UPR/TetrisProjekt/main.c -o CMakeFiles/sdlgame.dir/main.c.s
 
 CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.o: CMakeFiles/sdlgame.dir/flags.make
 CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.o: ../scenes/mainmenu/mainmenu.c
 CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.o: CMakeFiles/sdlgame.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/doomix/Documents/VSB/UPR/TetrisProjekt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.o"
-	/usr/bin/c89-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.o -MF CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.o.d -o CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.o -c /home/doomix/Documents/VSB/UPR/TetrisProjekt/scenes/mainmenu/mainmenu.c
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.o -MF CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.o.d -o CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.o -c /home/doomix/Documents/VSB/UPR/TetrisProjekt/scenes/mainmenu/mainmenu.c
 
 CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.i"
-	/usr/bin/c89-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/doomix/Documents/VSB/UPR/TetrisProjekt/scenes/mainmenu/mainmenu.c > CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/doomix/Documents/VSB/UPR/TetrisProjekt/scenes/mainmenu/mainmenu.c > CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.i
 
 CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.s"
-	/usr/bin/c89-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/doomix/Documents/VSB/UPR/TetrisProjekt/scenes/mainmenu/mainmenu.c -o CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/doomix/Documents/VSB/UPR/TetrisProjekt/scenes/mainmenu/mainmenu.c -o CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.s
 
-CMakeFiles/sdlgame.dir/utility/textrenderer.c.o: CMakeFiles/sdlgame.dir/flags.make
-CMakeFiles/sdlgame.dir/utility/textrenderer.c.o: ../utility/textrenderer.c
-CMakeFiles/sdlgame.dir/utility/textrenderer.c.o: CMakeFiles/sdlgame.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/doomix/Documents/VSB/UPR/TetrisProjekt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/sdlgame.dir/utility/textrenderer.c.o"
-	/usr/bin/c89-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sdlgame.dir/utility/textrenderer.c.o -MF CMakeFiles/sdlgame.dir/utility/textrenderer.c.o.d -o CMakeFiles/sdlgame.dir/utility/textrenderer.c.o -c /home/doomix/Documents/VSB/UPR/TetrisProjekt/utility/textrenderer.c
+CMakeFiles/sdlgame.dir/utility/textrenderer/textrenderer.c.o: CMakeFiles/sdlgame.dir/flags.make
+CMakeFiles/sdlgame.dir/utility/textrenderer/textrenderer.c.o: ../utility/textrenderer/textrenderer.c
+CMakeFiles/sdlgame.dir/utility/textrenderer/textrenderer.c.o: CMakeFiles/sdlgame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/doomix/Documents/VSB/UPR/TetrisProjekt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/sdlgame.dir/utility/textrenderer/textrenderer.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sdlgame.dir/utility/textrenderer/textrenderer.c.o -MF CMakeFiles/sdlgame.dir/utility/textrenderer/textrenderer.c.o.d -o CMakeFiles/sdlgame.dir/utility/textrenderer/textrenderer.c.o -c /home/doomix/Documents/VSB/UPR/TetrisProjekt/utility/textrenderer/textrenderer.c
 
-CMakeFiles/sdlgame.dir/utility/textrenderer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sdlgame.dir/utility/textrenderer.c.i"
-	/usr/bin/c89-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/doomix/Documents/VSB/UPR/TetrisProjekt/utility/textrenderer.c > CMakeFiles/sdlgame.dir/utility/textrenderer.c.i
+CMakeFiles/sdlgame.dir/utility/textrenderer/textrenderer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sdlgame.dir/utility/textrenderer/textrenderer.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/doomix/Documents/VSB/UPR/TetrisProjekt/utility/textrenderer/textrenderer.c > CMakeFiles/sdlgame.dir/utility/textrenderer/textrenderer.c.i
 
-CMakeFiles/sdlgame.dir/utility/textrenderer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sdlgame.dir/utility/textrenderer.c.s"
-	/usr/bin/c89-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/doomix/Documents/VSB/UPR/TetrisProjekt/utility/textrenderer.c -o CMakeFiles/sdlgame.dir/utility/textrenderer.c.s
+CMakeFiles/sdlgame.dir/utility/textrenderer/textrenderer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sdlgame.dir/utility/textrenderer/textrenderer.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/doomix/Documents/VSB/UPR/TetrisProjekt/utility/textrenderer/textrenderer.c -o CMakeFiles/sdlgame.dir/utility/textrenderer/textrenderer.c.s
+
+CMakeFiles/sdlgame.dir/utility/gamemanager/gamemanager.c.o: CMakeFiles/sdlgame.dir/flags.make
+CMakeFiles/sdlgame.dir/utility/gamemanager/gamemanager.c.o: ../utility/gamemanager/gamemanager.c
+CMakeFiles/sdlgame.dir/utility/gamemanager/gamemanager.c.o: CMakeFiles/sdlgame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/doomix/Documents/VSB/UPR/TetrisProjekt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/sdlgame.dir/utility/gamemanager/gamemanager.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sdlgame.dir/utility/gamemanager/gamemanager.c.o -MF CMakeFiles/sdlgame.dir/utility/gamemanager/gamemanager.c.o.d -o CMakeFiles/sdlgame.dir/utility/gamemanager/gamemanager.c.o -c /home/doomix/Documents/VSB/UPR/TetrisProjekt/utility/gamemanager/gamemanager.c
+
+CMakeFiles/sdlgame.dir/utility/gamemanager/gamemanager.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sdlgame.dir/utility/gamemanager/gamemanager.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/doomix/Documents/VSB/UPR/TetrisProjekt/utility/gamemanager/gamemanager.c > CMakeFiles/sdlgame.dir/utility/gamemanager/gamemanager.c.i
+
+CMakeFiles/sdlgame.dir/utility/gamemanager/gamemanager.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sdlgame.dir/utility/gamemanager/gamemanager.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/doomix/Documents/VSB/UPR/TetrisProjekt/utility/gamemanager/gamemanager.c -o CMakeFiles/sdlgame.dir/utility/gamemanager/gamemanager.c.s
+
+CMakeFiles/sdlgame.dir/interactions/events.c.o: CMakeFiles/sdlgame.dir/flags.make
+CMakeFiles/sdlgame.dir/interactions/events.c.o: ../interactions/events.c
+CMakeFiles/sdlgame.dir/interactions/events.c.o: CMakeFiles/sdlgame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/doomix/Documents/VSB/UPR/TetrisProjekt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/sdlgame.dir/interactions/events.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sdlgame.dir/interactions/events.c.o -MF CMakeFiles/sdlgame.dir/interactions/events.c.o.d -o CMakeFiles/sdlgame.dir/interactions/events.c.o -c /home/doomix/Documents/VSB/UPR/TetrisProjekt/interactions/events.c
+
+CMakeFiles/sdlgame.dir/interactions/events.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sdlgame.dir/interactions/events.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/doomix/Documents/VSB/UPR/TetrisProjekt/interactions/events.c > CMakeFiles/sdlgame.dir/interactions/events.c.i
+
+CMakeFiles/sdlgame.dir/interactions/events.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sdlgame.dir/interactions/events.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/doomix/Documents/VSB/UPR/TetrisProjekt/interactions/events.c -o CMakeFiles/sdlgame.dir/interactions/events.c.s
+
+CMakeFiles/sdlgame.dir/scenes/game/game.c.o: CMakeFiles/sdlgame.dir/flags.make
+CMakeFiles/sdlgame.dir/scenes/game/game.c.o: ../scenes/game/game.c
+CMakeFiles/sdlgame.dir/scenes/game/game.c.o: CMakeFiles/sdlgame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/doomix/Documents/VSB/UPR/TetrisProjekt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/sdlgame.dir/scenes/game/game.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sdlgame.dir/scenes/game/game.c.o -MF CMakeFiles/sdlgame.dir/scenes/game/game.c.o.d -o CMakeFiles/sdlgame.dir/scenes/game/game.c.o -c /home/doomix/Documents/VSB/UPR/TetrisProjekt/scenes/game/game.c
+
+CMakeFiles/sdlgame.dir/scenes/game/game.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sdlgame.dir/scenes/game/game.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/doomix/Documents/VSB/UPR/TetrisProjekt/scenes/game/game.c > CMakeFiles/sdlgame.dir/scenes/game/game.c.i
+
+CMakeFiles/sdlgame.dir/scenes/game/game.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sdlgame.dir/scenes/game/game.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/doomix/Documents/VSB/UPR/TetrisProjekt/scenes/game/game.c -o CMakeFiles/sdlgame.dir/scenes/game/game.c.s
+
+CMakeFiles/sdlgame.dir/scenes/game_over/game_over.c.o: CMakeFiles/sdlgame.dir/flags.make
+CMakeFiles/sdlgame.dir/scenes/game_over/game_over.c.o: ../scenes/game_over/game_over.c
+CMakeFiles/sdlgame.dir/scenes/game_over/game_over.c.o: CMakeFiles/sdlgame.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/doomix/Documents/VSB/UPR/TetrisProjekt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/sdlgame.dir/scenes/game_over/game_over.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/sdlgame.dir/scenes/game_over/game_over.c.o -MF CMakeFiles/sdlgame.dir/scenes/game_over/game_over.c.o.d -o CMakeFiles/sdlgame.dir/scenes/game_over/game_over.c.o -c /home/doomix/Documents/VSB/UPR/TetrisProjekt/scenes/game_over/game_over.c
+
+CMakeFiles/sdlgame.dir/scenes/game_over/game_over.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sdlgame.dir/scenes/game_over/game_over.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/doomix/Documents/VSB/UPR/TetrisProjekt/scenes/game_over/game_over.c > CMakeFiles/sdlgame.dir/scenes/game_over/game_over.c.i
+
+CMakeFiles/sdlgame.dir/scenes/game_over/game_over.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sdlgame.dir/scenes/game_over/game_over.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/doomix/Documents/VSB/UPR/TetrisProjekt/scenes/game_over/game_over.c -o CMakeFiles/sdlgame.dir/scenes/game_over/game_over.c.s
 
 # Object files for target sdlgame
 sdlgame_OBJECTS = \
 "CMakeFiles/sdlgame.dir/main.c.o" \
 "CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.o" \
-"CMakeFiles/sdlgame.dir/utility/textrenderer.c.o"
+"CMakeFiles/sdlgame.dir/utility/textrenderer/textrenderer.c.o" \
+"CMakeFiles/sdlgame.dir/utility/gamemanager/gamemanager.c.o" \
+"CMakeFiles/sdlgame.dir/interactions/events.c.o" \
+"CMakeFiles/sdlgame.dir/scenes/game/game.c.o" \
+"CMakeFiles/sdlgame.dir/scenes/game_over/game_over.c.o"
 
 # External object files for target sdlgame
 sdlgame_EXTERNAL_OBJECTS =
 
 sdlgame: CMakeFiles/sdlgame.dir/main.c.o
 sdlgame: CMakeFiles/sdlgame.dir/scenes/mainmenu/mainmenu.c.o
-sdlgame: CMakeFiles/sdlgame.dir/utility/textrenderer.c.o
+sdlgame: CMakeFiles/sdlgame.dir/utility/textrenderer/textrenderer.c.o
+sdlgame: CMakeFiles/sdlgame.dir/utility/gamemanager/gamemanager.c.o
+sdlgame: CMakeFiles/sdlgame.dir/interactions/events.c.o
+sdlgame: CMakeFiles/sdlgame.dir/scenes/game/game.c.o
+sdlgame: CMakeFiles/sdlgame.dir/scenes/game_over/game_over.c.o
 sdlgame: CMakeFiles/sdlgame.dir/build.make
 sdlgame: CMakeFiles/sdlgame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/doomix/Documents/VSB/UPR/TetrisProjekt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable sdlgame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/doomix/Documents/VSB/UPR/TetrisProjekt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable sdlgame"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sdlgame.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

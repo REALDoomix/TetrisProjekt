@@ -8,7 +8,11 @@ set(CMAKE_C_STANDARD 11)
 set(SOURCES
     main.c 
     scenes/mainmenu/mainmenu.c
-    utility/textrenderer.c
+    utility/textrenderer/textrenderer.c
+    utility/gamemanager/gamemanager.c
+    interactions/events.c
+    scenes/game/game.c
+    scenes/game_over/game_over.c
     )
 
 add_executable(sdlgame ${SOURCES})

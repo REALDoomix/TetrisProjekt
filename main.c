@@ -1,15 +1,20 @@
 #include <SDL2/SDL.h>
 #include <SDL_ttf.h>
+#include <SDL2/SDL_image.h>
+
 
 #include "scenes/mainmenu/mainmenu.h"
+#include "utility/gamemanager/gamemanager.h"
+#include "interactions/events.h"
 
 int main(int argc, char *argv[])
 {
     if (SDL_Init(SDL_INIT_VIDEO)) {
         fprintf(stderr, "SDL_Init Error: %s\n", SDL_GetError());
         return 1;
+
     }
-    SDL_Window* window = SDL_CreateWindow("Tetris", 100, 100, 1280, 720, SDL_WINDOW_SHOWN);
+    SDL_Window* window = SDL_CreateWindow("Tetris", 100, 100, 620, 670, SDL_WINDOW_SHOWN);
     if (!window) {
         fprintf(stderr, "SDL_CreateWindow Error: %s\n", SDL_GetError());
         SDL_Quit();
@@ -24,24 +29,27 @@ int main(int argc, char *argv[])
         return 1;
     }   
 
-    SDL_Event event;
     int running = 1;
 
-    render_main_menu(renderer);
+    initRenderer(renderer);
+    init_game();
 
-    while (running == 1)
+
+    while (isRunning())
     {
-        while (SDL_PollEvent(&event))
-        {
-            if (event.type == SDL_QUIT)
-            {
-                running = 0;
-            }
-        }
+        updateDeltaTime();
+        SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
+        SDL_RenderClear(renderer);
+
+        renderActiveScene();
+        event();
+        
+        SDL_RenderPresent(renderer);
     }
 
     SDL_DestroyRenderer(renderer);
     SDL_DestroyWindow(window);
+    TTF_Quit();
     SDL_Quit();
 
     return 0;
