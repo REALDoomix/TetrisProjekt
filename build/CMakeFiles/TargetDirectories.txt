@@ -1,3 +1,0 @@
-/home/doomix/Documents/VSB/UPR/TetrisProjekt/build/CMakeFiles/Tetris.dir
-/home/doomix/Documents/VSB/UPR/TetrisProjekt/build/CMakeFiles/edit_cache.dir
-/home/doomix/Documents/VSB/UPR/TetrisProjekt/build/CMakeFiles/rebuild_cache.dir
